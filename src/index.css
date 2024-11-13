@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply text-current;
+  }
+  
+  .prose a {
+    @apply text-current underline;
+  }
+  
+  .prose strong {
+    @apply text-current font-bold;
+  }
+  
+  .prose em {
+    @apply text-current italic;
+  }
+}
